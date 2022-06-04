@@ -1,0 +1,2 @@
+export const INITSTATE = 'INITSTATE';
+export const CITYCHOOSEN = 'CITYCHOOSEN';

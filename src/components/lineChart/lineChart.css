@@ -1,0 +1,65 @@
+#d3demo{
+    width: 85vw;
+    height: 50vh;
+    font-size: 0.8em;
+    font-family: cursive;
+     
+}
+.axises{
+    color:white;
+    font-family: cursive;
+    font-size: 0.7em;  
+}
+
+.axises2{
+    color: white;
+    font-family: cursive;
+    font-size: 0.7em;
+    
+}
+.axises3{
+    color: white;
+    font-family: cursive;
+    font-size: 0.5em;
+    
+}
+
+#d4demo{
+    width: 85vw;
+    height: 50vh;
+    font-size: 0.7em;
+    font-family: cursive;
+}
+
+@media(min-width:500px) {
+    #d4demo{
+        width: 90vw;
+        height: 50vh;
+        font-size: 1em;
+        font-family: cursive;
+    } 
+    #d3demo{
+        width: 90vw;
+        height: 50vh;
+        font-size: 1.1em;
+        font-family: cursive;
+    }
+    .axises{
+        color: #ccc;
+        font-family: cursive;
+        font-size:0.7em;
+   
+    }
+    .axises2{
+        color: #ccc;
+        font-family: cursive;
+        font-size: 0.7em;
+    }
+    .axises3{
+        color: #ccc;
+        font-family: cursive;
+        font-size: 0.7em;
+    }
+}
+
+

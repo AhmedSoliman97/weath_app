@@ -1,0 +1,73 @@
+.fonte{
+    font-size: 2.5em;
+    
+}
+.fonte1{
+    font-size: 1.5em;
+    
+}
+.fonte2{
+    font-size: 1em;
+    color: #ccc; 
+}
+.fonte3{
+    font-size: 0.3em;
+    color: #ccc;
+}
+.customTable{
+    color: white;
+}
+.resizeClass{
+    resize: both;
+    overflow: auto;
+}
+.carousel-item{
+    background-color: blueviolet;
+}
+
+.img-animate{
+    width: 11em;
+    height: 11em;
+}
+
+.anmi{
+    animation: dataShow 1s ease-out forwards ;
+}
+
+@media(min-width:500px){
+    .fonte3{
+        font-size: 0.5em;
+        color: #ccc;
+    }
+    .fonte1{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .fonte2{
+        font-size: 1.3em;
+        color: #ccc; 
+    }
+}
+
+@keyframes dataShow {
+    0%{
+        opacity: 0;
+       
+    }
+    30%{
+        opacity: 0.3;
+       
+    }
+    70%{
+        opacity: 0.7;
+        
+    }
+    
+    100%{
+        opacity: 1;
+       
+    }
+    
+}
+
+
